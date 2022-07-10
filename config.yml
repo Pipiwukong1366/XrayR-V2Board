@@ -1,5 +1,5 @@
 Log:
-  Level: debug # Log level: none, error, warning, info, debug 
+  Level: warning # Log level: none, error, warning, info, debug 
   AccessPath: # ./access.Log
   ErrorPath: # ./error.log
 DnsConfigPath: # ./dns.json Path to dns config 
@@ -10,7 +10,7 @@ Nodes:
       ApiHost: "https://www.houziji.xyz" 
       ApiKey: "6Pyck3LJR1tRACU70wnvyAyzaBNEWzffdff" 
       NodeID: 1
-      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      NodeType: Trojan # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type, Remote configuration first
       EnableXTLS: false # Enable XTLS for V2ray and Trojan, emote configuration first
